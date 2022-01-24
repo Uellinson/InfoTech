@@ -57,8 +57,8 @@ nav {
 nav > a{
     color: cornsilk;
     margin-left: 40px;
-    font-size: 22px;
-    padding: 15px;
+    font-size: 18px;
+    padding: 12px;
     margin-top: -35px;
     text-align: center;
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
@@ -91,7 +91,7 @@ main{
 main section.introd > h1{
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
     color: cornsilk;
-    font-size: 1.73em;
+    font-size: 1.4em;
     font-family: 'Roboto';
     padding: 16px;
     background-image: linear-gradient(to right,#5cbcc9, transparent);
@@ -128,7 +128,7 @@ main section.introd > p > a::after{
 main section.pire3 > h2{
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
     color: cornsilk;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-family: 'Roboto';
     padding: 16px;
     background-image: linear-gradient(to right,#5cbcc9, transparent);
