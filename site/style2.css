@@ -29,7 +29,7 @@ header > img{
 
 header > h1{
     padding-top: 20px;
-    font-size: 4.2em;
+    font-size: 3em;
     text-align: center;
     font-family: 'Origicide';
     margin: 15px;
@@ -40,7 +40,7 @@ header > h1{
 header > p{
     text-align: center;
     font-size: 1.6em;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     color: white;
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.356);
     padding-left: 10px;
@@ -57,7 +57,7 @@ nav {
 nav > a{
     color: cornsilk;
     margin-left: 40px;
-    font-size: 18px;
+    font-size: 15px;
     padding: 12px;
     margin-top: -35px;
     text-align: center;
@@ -91,7 +91,7 @@ main{
 main section.introd > h1{
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
     color: cornsilk;
-    font-size: 1.4em;
+    font-size: 1em;
     font-family: 'Roboto';
     padding: 16px;
     background-image: linear-gradient(to right,#5cbcc9, transparent);
@@ -103,7 +103,7 @@ main section.introd > p{
     text-align: justify;
     padding: 20px;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Bebas Neue', Arial;
     line-height: 30px;
 }
@@ -128,7 +128,7 @@ main section.introd > p > a::after{
 main section.pire3 > h2{
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
     color: cornsilk;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Roboto';
     padding: 16px;
     background-image: linear-gradient(to right,#5cbcc9, transparent);
@@ -150,7 +150,7 @@ main section.pire3 > a{
     line-height: 20px;
     display:inline ;
     text-decoration: none;
-    font-size: 2em ;
+    font-size: 1em ;
     border-radius: 7px;
     cursor: pointer;
     font-weight: bold ;
@@ -189,7 +189,7 @@ img.pire{
 main section.pire5 > h2{
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
     color: cornsilk;
-    font-size: 1.6em;
+    font-size: 1em;
     font-family: 'Roboto';
     padding: 16px;
     background-image: linear-gradient(to right,#5cbcc9, transparent);
@@ -203,7 +203,7 @@ main section.pire5 > p{
     text-align: justify;
     padding: 20px;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Bebas Neue', Arial;
     line-height: 30px;
 }
@@ -211,7 +211,7 @@ main section.pire5 > a{
     line-height: 20px;
     display:inline ;
     text-decoration: none;
-    font-size: 2em ;
+    font-size: 1em ;
     border-radius: 7px;
     cursor: pointer;
     font-weight: bold ;
