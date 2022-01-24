@@ -1,0 +1,209 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'Origicide' ;
+    src: url('fontes/Origicide.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?faily=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+@font-face{
+    font-family:'Roboto' ;
+    src: url('fontes/RobotoMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px; /*Fez com que o conteudo do header tocasse a extremidade do topo e das laterais*/
+    text-decoration: none; 
+}
+
+
+header{
+    background-image: linear-gradient(to bottom,#15509c, #96A6D9);
+    padding-top: 30px;
+}
+
+header > div.logo{
+    margin-top: -30px;
+}
+
+div.cabecalho{
+    padding-bottom: 40px;  
+}
+
+header > h1{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Origicide';
+    margin: 10px;
+    color:#5cbcc9;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.438);
+}
+
+body{
+   background-color: cornsilk;
+}
+
+header > p{
+    text-align: center;
+    font-size: 1.7em;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.356);
+}
+nav {
+    margin-left: 80px;
+    margin-top: -35px;
+    text-align: center;
+}
+
+nav > a{
+    text-align: center;
+    color:cornsilk;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.4em;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.616);
+}
+
+nav > a:hover{
+    background-color: #5cbcc92d;
+    color: #5cbcc9;
+    transition: 0.5;
+    border-radius: 5px;
+}
+
+main{
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto; /*Centralizou o conteudo do main*/
+    background-color: white;
+    box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.295);
+    text-indent: 30px;
+    padding: 20px; /*Separou a bock do background image da borda do top do main*/
+    margin-bottom: 30px;
+ }
+
+main > h1 {
+    color: #032335;
+    font-size: 2em;
+    font-family: 'Roboto';
+    padding: 16px;
+    background-image: linear-gradient(to right,#5cbcc9, transparent);
+    
+}
+
+main > p{
+   margin: auto;
+   max-width: 800px; /*Limita a larguda do texto, centralizando-o caso tenha margin auto*/
+   text-align: justify;
+   font-size: 1em;
+   font-family: 'Bebas Neue', Arial;
+   padding: 15px;
+   line-height: 1.6em;
+}
+
+main > h2{
+    color: #032335;
+    font-size: 2em;
+    font-family: 'Roboto';
+    margin-top: 30px;
+    padding: 10px;
+    background-image: linear-gradient(to right,#5cbcc9, transparent);
+}
+
+
+
+main > img{
+    display: block;
+    margin: auto; /*É preciso dar display block e margin auto para que a imagem fique centralizada no body*/
+    margin-bottom: 30px;
+}
+
+
+
+a.btn{
+    font-size: 20px;
+    background-color: rgba(53, 112, 201, 0.815);
+    border-radius: 5px;
+    width: 125px;
+    height: 40px;
+    padding-top: 13px;
+    padding-right: 15px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.719);
+    border: 2.5px outset rgb(113, 224, 9);
+    font-family: 'Permanent Marker', cursive;
+    margin-left: -15px;
+    
+}
+
+a.btn::before{
+    content: '';
+    position: absolute;   
+    width: 0%;
+    transform: translate(-50%) ;
+    height: 10%; ;
+    background: rgb(4, 243, 24,0.3);
+    border-radius: 6px;
+    transition: all 0.5s ease;
+}
+
+a.btn:hover:before{
+    width: 100%;
+}
+/*main > div >a::before{
+    content: '';
+    position: absolute;
+    background:rgba(113, 224, 9, 0.377);
+    top: 0%;
+    left: 50%;
+    width: 0%;
+    height: 100%;
+    transform: translate(-50%)
+}*/
+
+main > div> a:hover{
+    width: 100%;
+}
+main > div > a{
+    color: rgb(234,238,16);;
+}
+
+p > .jogos{
+    text-decoration: none;
+    color: #00507A;
+    background-color: #4bbcf963;
+    font-size: 18px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+p >.jogos:hover{
+    text-decoration: underline; 
+    color: #0080C4;
+}
+
+p > .jogos::after{
+    content: '\00A0\1F517';
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 4px;
+}
+
