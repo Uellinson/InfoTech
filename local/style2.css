@@ -327,7 +327,7 @@ main > ul > li {
     background-color: cornsilk;
     line-height: 25px;
     padding: 10px;
-    list-style: none;
+    list-style: circle;
 }
 
 img {
